@@ -2,7 +2,7 @@
     box-sizing: border box;
 }
 img{
-    width: 100;
+    width: 100%;
     height: auto;
 }
 
@@ -12,6 +12,7 @@ footer{
     max-width: 800px;
     margin: 0 auto;
 }
+
 header{
     background-color: #333333;
     color: white;
