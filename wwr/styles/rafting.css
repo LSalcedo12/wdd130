@@ -1,0 +1,13 @@
+:root {
+    --primary-color: #1b4332; /* Deep forest green */
+    --secondary-color: #219ebc; /* Vibrant river blue */
+    --accent1-color: #ffb703; /* Raft yellow */
+    --accent2-color: #f8f9fa; /* Off-white / light gray */
+    --heading-font: "Georgia", serif;
+    --body-font: "Arial", sans-serif;
+}
+
+header {
+    background-color: var(--primary-color);
+    color: var(--accent2-color);
+}
