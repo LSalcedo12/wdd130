@@ -9,9 +9,9 @@
         <link rel="stylesheet" href="styles/rafting.css">
     </head>
     <body>
-        <header>
+        <header class="site-header">
             <img src="images/z-raftingcompas.jpg" alt="Rafting Company Logo">
-            <nav>
+            <nav class="main-nav">
                 <a href="index.html">Home</a>
                 <a href="about.html">About Us</a>
                 <a href="trips.html">Trips</a>
@@ -19,11 +19,15 @@
             </nav>
         </header>
         <main>
-            <!--1. A div with a class of hero-->
-            <div class="hero">
-                <img src="images/hero-background.jpg" alt="River lanscape for rafting">
+            <!--1. A section with a class of hero-->
+            <section class="hero">
                 <h1>Rafting Company Title</h1>
-                
+                <div class="hero-content">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui iure est aperiam rerum porro quis ea ad. Illo ratione, harum natus, adipisci accusamus, molestiae quas nihil eligendi dolore veritatis saepe!</p>
+                    <img src="images/hero-background.jpg" alt="River landscape for rafting">
+                </div>
+            </section>
+
                 <!--2. An article with an images and purpose-->
                 <article>
                     <img src="images/happy-client.jpg" alt="Happy Client">
@@ -32,19 +36,37 @@
             </div>
 
             <!--3. History Section -->
-            <section>
+            <section class="history">
                 <h2>History</h2>
-                <p>Founded with the purpose of connecting people with nature, our company began with the basics and today offers a safe and unforgettable experience amidst beautiful landscapes.</p>
+                <div class="history-grid">
+                    <p>Founded with the purpose of connecting people with nature, our company began with the basics and today offers a safe and unforgettable experience amidst beautiful landscapes.</p>
+                    <img src="images/" alt="Rafting history">
+                    <p>Over the years, our team of certified guides has explored the best rapids, creating memories for families and adventure seekers alike.</p>
+                </div>
             </section>
 
             <!--4. Adventure Section -->
-            <section>
-                <h2>Adventure Awaits You!</h2>  
+            <section class="adventures">
+                <h2>Adventure Awaits You!</h2>
+                <div class="adventure-gallery">
+                    <figure>
+                        <img src="images/" alt="Los Dientes del Diablo">
+                        <figcaption>Los Dientes del Diablo</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="images/" alt="Big Mallard">
+                        <figcaption>Big Mallard</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="images/" alt="Half Day Adventure">
+                        <figcaption>Half Day Adventure</figcaption>
+                    </figure>
+                </div>
             </section>
         </main>
         <footer>
             <p>&copy; 2026, Rafting Company - Luisa Salcedo</p>
-            <nav class="socialmedia">
+            <nav class=".socialmedia">
                 <a href="https://www.facebook.com/">
                     <img src="images/facebook-logo.jpg" alt="Facebook Icon">
                 </a>
