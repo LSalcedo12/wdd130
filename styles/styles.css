@@ -3,14 +3,19 @@
 header, 
 .grid, 
 footer{
-    max-width: 840px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
 footer{
-    margin-top: 15px;
+    background-color: #3e3e3e;
+    color: #fff;
+    margin: 2rem auto;
+    margin-top: 2rem;
     border-top: 1px solid #000;
     text-align: center;
+    padding:2rem 1rem;
+
 }
 
 nav {
@@ -41,8 +46,8 @@ h1 {
 }
 
 aside{
-    width: 20rem;
-    margin: 1rem;
+    max-width: 30rem;
+    margin: 10px 0;
     border: 1px solid rgb(0 0 0 / 0.2); /* 1️⃣ */
     padding: 1rem;
     background-color: #eee;
@@ -74,6 +79,10 @@ main img{
     border: 1px solid black;
     padding: 2px;
     box-shadow: 0 0 30px gray;
+}
+
+ul {list-style: none;
+    padding: 0;
 }
 
 .grid{
