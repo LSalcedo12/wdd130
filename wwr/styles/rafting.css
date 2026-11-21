@@ -66,8 +66,8 @@ header nav {
     padding: 0;
 }
 
-header nav a{
-    color: var(--accent2-color);
+header nav a:hover{
+    color: var(--accent1-color);
     text-decoration: none;
     font-weight: bold;
 }
